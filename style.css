@@ -1,0 +1,139 @@
+h2, p {
+display: inline;
+}
+p{
+    font-size: 1.2em;
+  }
+div {
+    margin-bottom: 20px;
+}
+table.table th,
+  table.table td {
+    border: 2px solid #000 !important; 
+  }
+ nav {
+  position: fixed;
+  top: 0;
+  right: 0;
+  height: 100vh;
+  width: 200px;
+  background-color: #f8f9fa;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  transition: all 0.3s ease;
+  z-index: 1000;
+  box-shadow: -2px 0 10px rgba(0, 0, 0, 0.1);
+}
+
+nav a {
+  display: block;
+  margin-bottom: 10px;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 5px;
+  color: black;
+  background-color: #f8f9fa;
+  border: 1px solid #dee2e6;
+}
+
+nav a:first-child {
+  background-color: #0d6efd;
+  color: white;
+}
+main {
+  margin-right: 220px;
+  padding: 20px;
+}
+
+h2, p {
+  display: inline;
+}
+
+p {
+  font-size: 1.2em;
+}
+
+div {
+  margin-bottom: 20px;
+}
+
+ul {
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+table.table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+table.table th,
+table.table td {
+  border: 2px solid #000;
+  padding: 8px;
+  text-align: left;
+}
+#sidebarToggle {
+  position: fixed;
+  top: 10px;
+  left: 10px;
+  padding: 8px 12px;
+  z-index: 1001;
+  background-color: #0d6efd;
+  color: white;
+  border: none;
+  border-radius: 4px;
+}
+@media screen and (max-width: 768px) {
+  nav {
+    width: 150px;
+  }
+
+  main {
+    margin-right: 160px;
+  }
+}
+@media screen and (max-width: 480px) {
+  nav {
+    width: 100%;
+    height: auto;
+    position: fixed;
+    bottom: 0;
+    top: auto;
+    left: 0;
+    flex-direction: column;
+    padding: 10px;
+    border-top: 2px solid #ccc;
+  }
+
+  nav a {
+    width: 100%;
+    margin: 5px 0;
+    font-size: 14px;
+    padding: 10px;
+  }
+
+  main {
+    margin: 0;
+    padding-bottom: 200px;
+  }
+}
+body {
+  background-color: #f4f6f9;
+  color:#212529
+}
+nav {
+  background-color: #ffffff;
+}
+img {
+  max-width: 100%;
+  width: 100%;
+  height: auto;
+  display: block;
+  margin: 1rem auto;
+  max-width: 800px; /* 👈 sets the max width on large screens */
+}
+
